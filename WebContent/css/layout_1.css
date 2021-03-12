@@ -1,17 +1,47 @@
 @charset "UTF-8";
 
+body {
+	background-image: url("../images/commons/back.png");
+	font-family: "Nanum Gothic", "나눔고딕", "돋움","Dotum","굴림", "Gulim", sans-serif;
+}
 
 /*************************************** header ***********************************/
 .header {
 	width: 100%;
-	height: 100px;
-	background-color: black;	
+	height: 67px;
+	background-image: url("../images/commons/header_bg.png");
+	background-repeat: repeat-x;
 }
 .header > div {
 	width: 65%;
 	height: 100%;
-	background-color : red;
 	margin: 0 auto;
+}
+
+.logo {
+/*border: 1px solid red;*/
+	padding:13px 0;
+	box-sizing: border-box;
+	float: left;
+}
+
+nav {
+	color: pink;
+	float: left;
+	margin-left: 100px;
+}
+
+.main_menu>li {
+	list-style:none;
+	float: left;
+	margin-right: 50px;
+	line-height: 67px;
+}
+
+.main_menu>li>a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
 }
 
 /*************************************** main ***********************************/
@@ -38,7 +68,7 @@
 	width: 100%;
 	height: 150px;
 	background-color: green;
-	padding-top:20px;
+	padding-top: 20px;
 	box-sizing: border-box;
 }
 
